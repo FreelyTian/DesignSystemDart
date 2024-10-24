@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 //Light
 
 //Brand colors
-const Color lightPrimaryBrandColor = Color(0xffFAE187);
+const Color lightPrimaryBrandColor = Color.fromARGB(255, 246, 201, 41);
 const Color normalPrimaryBrandColor = Color(0xffF8D247);
 const Color darkPrimaryBrandColor = Color(0xffE0B827);
 
@@ -17,7 +17,7 @@ const Color darkTertiaryBrandColor = Color(0xffE75527);
 
 //Base colors
 const Color lightPrimaryBaseColorLight = Color(0xff555555);
-const Color normalPrimaryBaseColorLight = Color(0xff333232);
+const Color normalPrimaryBaseColorLight = Color.fromARGB(255, 0, 0, 0);
 const Color darkPrimaryBaseColorLight = Color(0xff000000);
 
 const Color lightSecondaryBaseColorLight = Color(0xffABABAB);
