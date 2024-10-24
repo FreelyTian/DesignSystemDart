@@ -57,6 +57,7 @@ class ActionButton extends StatelessWidget {
         minimumSize: viewModel.size == ActionButtonSize.large ? const Size(400, 48) : const Size(100, 36),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
         textStyle: buttonTextStyle,
+        foregroundColor: buttonTextStyle.color,
         padding: EdgeInsets.symmetric(
           vertical: verticalPadding,
           horizontal: horizontalPadding
