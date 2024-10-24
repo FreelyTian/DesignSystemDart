@@ -7,7 +7,6 @@ import 'package:untitled/DesignSystem/Components/LinkedLabel/linked_label.dart';
 import 'package:untitled/DesignSystem/Components/LinkedLabel/linked_label_view_model.dart';
 import 'package:untitled/Scenes/loginPage/login_router.dart';
 import 'package:untitled/Scenes/loginPage/login_service.dart';
-import 'package:untitled/Scenes/signUpPage/signup_router.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -88,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
 
                       throw Exception('Usuário ou senha inválidos');
                     } else {
-                      LoginRouter.goToProfilePage(context);
+                      LoginRouter.goToProfilePage(context, userData['name']);
                     }
                     // Navega para a ProfilePage usando o LoginRouter e passa os dados do usuário
                   } catch (e) {
